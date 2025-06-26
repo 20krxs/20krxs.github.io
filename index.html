@@ -1,12 +1,12 @@
 <!DOCTYPE html><html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>clixy</title>
+        <title>kris</title>
         <meta name="description" content="eu cum vreau voi cum puteti">
-        <meta property="og:title" content="clixy">
+        <meta property="og:title" content="kris">
         <meta property="og:description" content="eu cum vreau voi cum puteti">
         <meta property="og:image" content="images/f37f7455fb8de326ea2ac0a80e8b4fde.jpg">
-        <meta property="og:url" content="https://clixy.online">
+        <meta property="og:url" content="https://kris.rest">
         <meta property="og:type" content="website">
         <meta name="theme-color" content="#ffffff">
         <link rel="stylesheet" href="css/landing.css">
@@ -954,7 +954,7 @@ titlebar(1);
         </div>
 
         <div class="top-right-icon">
-            <a href="https://clixy.online/spotify.html" target="_blank" rel="noopener noreferrer">
+            <a href="https://kris.rest/spotify.html" target="_blank" rel="noopener noreferrer">
                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" fill="#39FF14" height="36" width="36" style="filter: drop-shadow(0 0 0.2rem #ffffff);">
                     <path d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248s248-111.1 248-248S384.9 8 248 8m100.7 364.9c-4.2 0-6.8-1.3-10.7-3.6c-62.4-37.6-135-39.2-206.7-24.5c-3.9 1-9 2.6-11.9 2.6c-9.7 0-15.8-7.7-15.8-15.8c0-10.3 6.1-15.2 13.6-16.8c81.9-18.1 165.6-16.5 237 26.2c6.1 3.9 9.7 7.4 9.7 16.5s-7.1 15.4-15.2 15.4m26.9-65.6c-5.2 0-8.7-2.3-12.3-4.2c-62.5-37-155.7-51.9-238.6-29.4c-4.8 1.3-7.4 2.6-11.9 2.6c-10.7 0-19.4-8.7-19.4-19.4s5.2-17.8 15.5-20.7c27.8-7.8 56.2-13.6 97.8-13.6c64.9 0 127.6 16.1 177 45.5c8.1 4.8 11.3 11 11.3 19.7c-.1 10.8-8.5 19.5-19.4 19.5m31-76.2c-5.2 0-8.4-1.3-12.9-3.9c-71.2-42.5-198.5-52.7-280.9-29.7c-3.6 1-8.1 2.6-12.9 2.6c-13.2 0-23.3-10.3-23.3-23.6c0-13.6 8.4-21.3 17.4-23.9c35.2-10.3 74.6-15.2 117.5-15.2c73 0 149.5 15.2 205.4 47.8c7.8 4.5 12.9 10.7 12.9 22.6c0 13.6-11 23.3-23.2 23.3"/>
                 </svg>
@@ -1005,32 +1005,32 @@ titlebar(1);
                 const data = await response.json();
     
                 if (data && data.data) {
-                    const clixysugepula = document.getElementById('clixys');
-                    const pispeclixy = document.getElementById('clixya');
+                    const krissugepula = document.getElementById('kriss');
+                    const pispekris = document.getElementById('krisa');
     
-                    const clixysuge = data.data.activities.find(activity => activity.type === 1);
+                    const krissuge = data.data.activities.find(activity => activity.type === 1);
     
-                    if (clixysuge) {
-                        clixysugepula.innerHTML = `<img src="https://cdn3.emoji.gg/emojis/2558-streaming.png" width="13px" height="13px" alt="Streaming"/> ${clixysuge.name}`;
-                        pispeclixy.innerHTML = '';
+                    if (krissuge) {
+                        krissugepula.innerHTML = `<img src="https://cdn3.emoji.gg/emojis/2558-streaming.png" width="13px" height="13px" alt="Streaming"/> ${krissuge.name}`;
+                        pispekris.innerHTML = '';
                     } else {
                         switch (data.data.discord_status) {
                             case 'offline':
-                                clixysugepula.innerHTML = `<img src="https://cdn3.emoji.gg/emojis/2179-offline-status.png" width="12px" height="12px" alt="Offline"/> Offline`;
+                                krissugepula.innerHTML = `<img src="https://cdn3.emoji.gg/emojis/2179-offline-status.png" width="12px" height="12px" alt="Offline"/> Offline`;
                                 break;
                             case 'dnd':
-                                clixysugepula.innerHTML = `<img src="https://cdn3.emoji.gg/emojis/4431-dnd-blank.png" width="12px" height="12px" alt="Do not Disturb"/> Do not Disturb`;
+                                krissugepula.innerHTML = `<img src="https://cdn3.emoji.gg/emojis/4431-dnd-blank.png" width="12px" height="12px" alt="Do not Disturb"/> Do not Disturb`;
                                 break;
                             case 'idle':
-                                clixysugepula.innerHTML = `<img src="https://cdn3.emoji.gg/emojis/6054-idle.png" width="12px" height="12px" alt="Idle"/> Idle`;
+                                krissugepula.innerHTML = `<img src="https://cdn3.emoji.gg/emojis/6054-idle.png" width="12px" height="12px" alt="Idle"/> Idle`;
                                 break;
                             case 'online':
-                                clixysugepula.innerHTML = `<img src="https://cdn3.emoji.gg/emojis/1162-online.png" width="12px" height="12px" alt="Online"/> Online`;
+                                krissugepula.innerHTML = `<img src="https://cdn3.emoji.gg/emojis/1162-online.png" width="12px" height="12px" alt="Online"/> Online`;
                                 break;
                             default:
-                                clixysugepula.innerHTML = `Unknown status`;
+                                krissugepula.innerHTML = `Unknown status`;
                         }
-                        pispeclixy.innerHTML = 'No stream activity.';
+                        pispekris.innerHTML = 'No stream activity.';
                     }
                 }
             } catch (error) {
